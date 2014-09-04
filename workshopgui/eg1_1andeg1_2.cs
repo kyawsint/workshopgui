@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace workshopgui
 {
-    public partial class WorkShop1 : Form
+    public partial class eg1_1andeg1_2 : Form
     {
-        public WorkShop1()
+        public eg1_1andeg1_2()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace workshopgui
         private void btnbutton1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("OK button has been Clicked.");
-            MessageBox.Show("Height is = " + btnbutton1.Height + " and Width is " + btnbutton1.Width);
+            MessageBox.Show("Height is " + btnbutton1.Height + " , Width is " + btnbutton1.Width + " and Color is " + btnbutton1.BackColor);
         }
     }
 }

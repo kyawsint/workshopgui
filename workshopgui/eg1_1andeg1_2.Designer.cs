@@ -1,6 +1,6 @@
 ﻿namespace workshopgui
 {
-    partial class WorkShop1
+    partial class eg1_1andeg1_2
     {
         /// <summary>
         /// Required designer variable.
@@ -84,12 +84,13 @@
             // 
             // btnbutton1
             // 
+            this.btnbutton1.BackColor = System.Drawing.Color.SeaGreen;
             this.btnbutton1.Location = new System.Drawing.Point(80, 265);
             this.btnbutton1.Name = "btnbutton1";
             this.btnbutton1.Size = new System.Drawing.Size(75, 23);
             this.btnbutton1.TabIndex = 5;
             this.btnbutton1.Text = "OK";
-            this.btnbutton1.UseVisualStyleBackColor = true;
+            this.btnbutton1.UseVisualStyleBackColor = false;
             this.btnbutton1.Click += new System.EventHandler(this.btnbutton1_Click);
             // 
             // lblnamemsg
@@ -108,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gray;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(520, 396);
             this.Controls.Add(this.lblnamemsg);
             this.Controls.Add(this.btnbutton1);
